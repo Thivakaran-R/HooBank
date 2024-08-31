@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.card-image {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  max-width: 500px; 
+  margin: 20px 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .feedback {
+    flex-direction: column;
+  }
+
+  .lfeedback,
+  .rfeedback {
+    margin: 10px 0;
+  }
+
+  .card-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-image {
+    max-width: 100%;
+  }
+}
+

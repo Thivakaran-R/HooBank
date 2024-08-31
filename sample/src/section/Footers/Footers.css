@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+  cursor: pointer;
+  color: white;
+}
+.partner {
+  padding-bottom: 70px;
+}
+.subclass {
+  color: rgb(99, 98, 98);
+}
+.footer-logo img {
+  width: 25vb;
+  height: 10vh;
+}
+.footer-logo p {
+  color: rgb(99, 98, 98);
+}
+.footer{
+    border-bottom:  rgb(99, 98, 98) 2px solid;
+}

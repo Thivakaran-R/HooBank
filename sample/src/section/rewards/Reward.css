@@ -1,0 +1,99 @@
+.container.reward {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+.reward {
+  margin-top: 100px;
+}
+.rreward i {
+  color: aqua;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.lreward {
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.rreward {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+}
+
+.rreward > div {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.rreward h5 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.rreward p {
+  color: rgb(184, 182, 182);
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.lreward p {
+  color: rgb(184, 182, 182);
+}
+
+.lreward button {
+  color: black;
+  font-size: 15px;
+  background-color: aqua;
+  height: 50px;
+  width: 150px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .container.reward {
+    flex-direction: column;
+  }
+
+  .lreward {
+    margin-bottom: 20px;
+  }
+
+  .rreward {
+    align-items: center;
+  }
+
+  .rreward > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lreward h1 {
+    font-size: 24px;
+  }
+
+  .rreward > div {
+    padding: 15px;
+  }
+
+  .rreward p {
+    font-size: 12px;
+  }
+}

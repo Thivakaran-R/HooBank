@@ -1,0 +1,69 @@
+.mil {
+  padding-top: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.mil h1 {
+  color: white;
+  padding-left: 0px;
+}
+.mil span {
+  color: aqua;
+  padding-left: 30px;
+  font-size: 20px;
+}
+.mil p {
+  color: white;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .container.mil {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .mil h1 {
+    font-size: 28px;
+  }
+
+  .mil span {
+    font-size: 18px;
+    margin-top: 3px;
+  }
+
+  .mil p {
+    display: none; /* Hide the separator on smaller screens */
+  }
+
+  .mil .d-inline {
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .container.mil {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .mil h1 {
+    font-size: 24px;
+  }
+
+  .mil span {
+    font-size: 16px;
+    margin-top: 2px;
+  }
+
+  .mil p {
+    display: none; /* Hide the separator on mobile screens */
+  }
+
+  .mil .d-inline {
+    margin-bottom: 15px;
+  }
+}

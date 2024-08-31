@@ -1,0 +1,27 @@
+.space {
+  margin-top: 20px;
+}
+.nav-link.active {
+  color: white !important;
+}
+
+img {
+  width: 124px;
+  height: 32px;
+}
+.hookimg {
+  padding-left: 20px;
+}
+.Home {
+  color: white !important;
+  margin-right: 40px;
+}
+
+.link {
+  color: #ffffffb3;
+  margin-right: 40px;
+}
+
+.link:hover {
+  color: white;
+}

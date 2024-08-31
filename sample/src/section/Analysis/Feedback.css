@@ -1,0 +1,24 @@
+.rfeedback p {
+  color: rgb(184, 182, 182);
+}
+.feedback {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lfeedback,
+.rfeedback {
+  flex: 1;
+  margin: 10px;
+}
+
+.lfeedback h1 {
+  color: white;
+}
+
+.rfeedback p {
+  color: rgb(184, 182, 182);
+}
